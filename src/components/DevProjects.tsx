@@ -3,6 +3,7 @@ import { ExternalLink, Code, GitBranch } from "lucide-react";
 import { GitHub } from "react-feather";
 import { motion } from "framer-motion";
 
+
 export function DevProjects() {
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -80,92 +81,92 @@ export function DevProjects() {
     const projects = [
         {
             id: 1,
-            title: "Matrix - Freelance Work",
+            title: "Amazon Clone",
             description:
-                "Developed an advanced product packing management system, optimizing order fulfillment by automating product-to-box assignments and generating labeled packing cards in PDF format, reducing processing time by 15%.",
-            img: "/matrix.png",
-            iconLists: ["/react.svg", "/node.svg", "/mysql.svg", "/hono.svg"],
-            link: "https://vergin-matrix-frontend.vercel.app/",
-            github: "",
-            stack: ["React", "Node.js", "MySQL", "Hono"],
+                "Developed an Amazon Clone frontend using HTML and CSS, replicating the homepage layout, navigation bar, product sections, and responsive design for a realistic e-commerce interface",
+            img: "/amazonn.png",
+            // iconLists: ["/HTML", "/CSS", "/JAVASCRIPT"],
+            link: "https://github.com/kesharigupta/Amazon-Clone",
+            github: "https://github.com/kesharigupta/Amazon-Clone",
+            stack: ["HTML", "CSS", "JAVASCRIPT"],
             status: "active",
             deployed: true,
         },
         {
             id: 2,
-            title: "KiteFoot - Shoe E-Commerce Website",
+            title: "Music Page",
             description:
-                "Developed a Shoe E-Commerce platform with category-wise shoe listings, enabling seamless browsing and selection.",
-            img: "/kitefoot.png",
+                "Created a Music Page using HTML, CSS, and JavaScript, featuring a responsive layout with a navigation bar, music player controls, and album artwork display.",
+            img: "/music.jpg",
             iconLists: ["/react.svg", "/tail.svg", "/react-router.svg"],
-            link: "https://www.kitefoot.com/",
-            github: "",
-            stack: ["React", "React-Router", "Tailwind CSS"],
+            link: "",
+            github: "https://github.com/kesharigupta/Music_Page",
+            stack: ["HTML", "CSS", "JAVASCRIPT" , "BOOTSTRAP"],
             status: "active",
             deployed: true,
         },
         {
             id: 3,
-            title: "NextAuth v5 - Secure Authentication",
+            title: "Weather App",
             description:
-                "Implemented cutting-edge authentication using NextAuth v5 in Next.js, supporting OAuth, JWT, and session management for secure user authentication.",
-            img: "/nextauth.png",
+                "Developed a Weather App using React, Tailwind CSS, and Axios, providing real-time weather updates with a user-friendly interface and responsive design.",
+            img: "images5.png",
             iconLists: ["/next.svg", "/oauth.svg", "/jwt.svg"],
-            link: "https://next-auth-v5-six-lake.vercel.app/login",
-            github: "https://github.com/Mantu008/NEXT-AUTH-V5",
-            stack: ["Next.js", "NextAuth.js", "OAuth", "JWT"],
+            link: "",
+            github: "https://github.com/kesharigupta/Weather-App",
+            stack: ["React", "Tailwind CSS" , "JavaScript"],
             status: "active",
             deployed: true,
         },
         {
             id: 4,
-            title: "Hotel Booking - Hackathon Work",
+            title: "Hotel Booking and Listing Shop",
             description:
-                "Built a Hotel Booking frontend with detailed hotel specifications, amenities, and filtering options for easy search and selection.",
-            img: "/hotel-booking.png",
+                "Developed a Hotel Booking and Listing Shop frontend with detailed hotel specifications, amenities, and filtering options for easy search and selection.",
+            img: "project.png",
             iconLists: ["/react.svg", "/tail.svg", "/axios.svg"],
-            link: "https://web-horizon-hackthone.vercel.app/",
-            github: "https://github.com/Mantu008/Web-Horizon-Hackthone",
-            stack: ["React", "Tailwind CSS", "Axios", "React Router"],
+            link: "",
+            github: "https://github.com/kesharigupta/Listings-Hotels-and-Tourist-Places",
+            stack: ["EJS", "Tailwind CSS", "JAVASCRIPT", "EXPRESS" , "MONGODB-ATLAS"],
             status: "active",
             deployed: true,
         },
         {
             id: 5,
-            title: "E-Commerce Backend - MERN Stack",
+            title: "VIDEO CALLING - MERN Stack",
             description:
-                "Implemented CRUD operations and JWT-based authentication using Express.js and MongoDB to manage users and products efficiently.",
-            img: "/backend.png",
+                "Developed a real-time video calling application using the MERN stack, enabling users to initiate and join video calls with secure authentication and real-time communication features.",
+            img: "/video.jpg",
             iconLists: ["/node.svg", "/express.svg", "/mongodb.svg"],
-            link: "https://e-commerce-mern-frontant.vercel.app/",
-            github: "https://github.com/Mantu008/E-commerce-Backend",
-            stack: ["Node.js", "Express.js", "MongoDB", "JWT"],
+            link: "",
+            github: "https://github.com/kesharigupta/videoMeet",
+            stack: ["Node.js", "React.js", "Express.js", "MongoDB", "WebRTC"],
             status: "active",
             deployed: true,
         },
         {
             id: 6,
-            title: "E-Commerce - React with Auth0",
+            title: "Employee Management System - MERN Stack",
             description:
-                "Feature-rich E-Commerce platform built with React and Redux Toolkit, includes secure authentication via Auth0 and client-side routing using React Router.",
-            img: "/ecommerce-auth0.png",
+                "Developed a comprehensive Employee Management System using the MERN stack, allowing for efficient employee data management, including CRUD operations, search functionality, and user authentication.",
+            img: "/employee.png",
             iconLists: ["/react.svg", "/redux.svg", "/auth0.svg"],
-            link: "http://e-commerce-react-ecru-eta.vercel.app",
-            github: "https://github.com/Mantu008/E-Commerce-REACT",
-            stack: ["React.js", "Redux Toolkit", "Auth0", "React Router"],
+            link: "",
+            github: "https://github.com/kesharigupta/Employee-Management-System",
+            stack: ["React.js","React Router"],
             status: "active",
             deployed: true,
         },
         {
             id: 7,
-            title: "Simple E-Commerce - HTML/CSS/JS",
+            title: "Stock Trading Platform - MERN Stack",
             description:
-                "Crafted a fully responsive Electronic E-Commerce website using HTML, CSS, JavaScript, and Bootstrap with a focus on front-end design and usability.",
-            img: "/ecommerce-simple.png",
+                "Developed a Stock Trading Platform using the MERN stack, enabling users to view stock prices, execute trades, and manage their portfolios with real-time updates and secure authentication.",
+            img: "/trading.jpg",
             iconLists: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap.svg"],
-            link: "https://mantu008.github.io/EComerce/",
-            github: "https://github.com/Mantu008/EComerce",
-            stack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+            link: "",
+            github: "https://github.com/kesharigupta/Stock-Market-Trading-Platform",
+            stack: ["react.js", "Node.js", "Express.js", "MongoDB-Atlas"],
             status: "active",
             deployed: true,
         },
@@ -264,7 +265,7 @@ export function DevProjects() {
                                         Source Code
                                     </a>
                                 )}
-                                {project.link && (
+                                {/* {project.link && (
                                     <a
                                         href={project.link}
                                         className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition-colors"
@@ -274,7 +275,7 @@ export function DevProjects() {
                                         <ExternalLink className="h-4 w-4" />
                                         Live Demo
                                     </a>
-                                )}
+                                )} */}
                             </div>
                         </div>
                     </motion.div>
