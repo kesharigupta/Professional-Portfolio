@@ -168,7 +168,7 @@ export function DevProjects() {
             github: "https://github.com/kesharigupta/Stock-Market-Trading-Platform",
             stack: ["react.js", "Node.js", "Express.js", "MongoDB-Atlas"],
             status: "active",
-            deployed: true,
+            deployed: true, 
         },
     ];
 
